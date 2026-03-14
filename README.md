@@ -123,20 +123,6 @@ model = Anthropic(model="claude-3-5-sonnet-20241022")
 # 需要 ANTHROPIC_API_KEY
 ```
 
-### DeepSeek
-
-```python
-from strands.models.openai import OpenAIModel
-
-model = OpenAIModel(
-    client_args={
-        "api_key": os.getenv("DEEPSEEK_API_KEY"),
-        "base_url": os.getenv("DEEPSEEK_BASE_URL")
-    },
-    model_id="deepseek-chat",
-)
-```
-
 ## 常见问题
 
 **Q: 技能没被触发？**
