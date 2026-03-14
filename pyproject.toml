@@ -1,0 +1,11 @@
+[project]
+name = "agent-skill"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "strands-agents[openai]>=1.30.0",
+    "strands-agents-tools>=0.2.22",
+    "pymupdf>=1.27.2",
+]
